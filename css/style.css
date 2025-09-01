@@ -80,15 +80,6 @@ span{
     color: var(--main-color);
 }
 
-#menu-icon{
-    font-size: 35px;
-    color: var(--text-color);
-    z-index: 10001;
-    cursor: pointer;
-    margin-left: 25px;
-    display: none;
-}
-
 section{
     padding: 160px 15% 120px;
 }
@@ -110,19 +101,6 @@ section{
 }
 
 .one{
-    display: inline-block;
-    margin-right: 15px;
-    height: 32px;
-    padding: 0 15px;
-    line-height: 32px;
-    font-size: 20px;
-    font-weight: 500;
-    border-radius: 5px;
-    background: var(--main-color);
-    color: var(--text-color);
-}
-
-.two{
     display: inline-block;
     color: var(--second-color);
     font-size: 20px;
@@ -161,57 +139,6 @@ section{
 .link:hover{
     transition: .5s;
     color: #e43232;
-}
-
-.button{
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    margin-top: 40px;
-}
-
-.btn{
-    display: inline-block;
-    padding: 12px 28px;
-    background-color: var(--main-color);
-    border-radius: 5px;
-    color: var(--text-color);
-    font-size: 1rem;
-    letter-spacing: 1px;
-    font-weight: 600;
-    transition: all .45s ease;
-}
-
-.btn:hover{
-    transform: scale(0.9);
-}
-
-.btn2{
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 15px;
-    font-weight: 600;
-    color: var(--text-color);
-    margin-left: 35px;
-}
-
-.btn2 span i{
-    height: 55px;
-    width: 55px;
-    background: var(--main-color);
-    color: var(--text-color);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 35px;
-    border-radius: 50%;
-    margin-right: 15px;
-    transition: all .45s ease;
-}
-
-.btn2 span i:hover{
-    transform: scale(0.9);
 }
 
 .socials{
@@ -294,7 +221,7 @@ header.sticky{
     margin-bottom: 0.5rem;
 }
 
-.services{
+.habilidades{
     background: var(--second-bg-color);
 }
 
@@ -313,7 +240,7 @@ header.sticky{
     line-height: 1;
 }
 
-.services-content{
+.habilidades-content{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, auto));
     align-items: center;
@@ -336,10 +263,6 @@ header.sticky{
     transition: all .45s ease;
 }
 
-.s-icons i{
-    font-size: 36px;
-}
-
 .box h3{
     font-size: 22px;
     font-weight: 600;
@@ -350,7 +273,7 @@ header.sticky{
     transform: translateY(-8px);
 }
 
-.portfolio-content{
+.projetos-content{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, auto));
     align-items: center;
@@ -443,44 +366,12 @@ header.sticky{
     font-size: var(--p-font)
 }
 
-#top{
-    position: fixed;
-    bottom: 0;
-    padding: auto;
-    margin: 5rem;
-}
-
-#top.hide-top{
-    display: none;
-}
-
-#top.show-top{
-    display: block;
-}
-
 #top i{
     padding: 10px;
     border-radius: 8px;
     font-size: 28px;
     color: var(--text-color);
     background: var(--main-color);
-}
-
-.experience{
-    background-color: var(--second-bg-color);
-}
-
-.timeline{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.container{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin: 3rem 0;
 }
 
 .container img{
@@ -612,7 +503,7 @@ header.sticky{
         position: relative;
         height: 87vh;
         width: 100%;
-        background-image: url(../img/background.jpg);
+        background-image: url(../img/background.png);
         background-size: cover;
         background-position: center;
         display: flex;
@@ -664,10 +555,5 @@ header.sticky{
     .link{
         color: rgb(0, 0, 0);
         transition: .5s;
-    }
-    
-    .link:hover{
-        transition: .5s;
-        color: #e4ab32;
     }
 }
