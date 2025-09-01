@@ -390,6 +390,10 @@ header.sticky{
     width: 60vw;
 }
 
+.experience{
+    background-color: var(--second-bg-color);
+}
+
 .text-box h5{
     font-size: 20px;
     font-weight: 600;
