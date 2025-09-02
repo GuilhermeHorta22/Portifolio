@@ -13,13 +13,13 @@ Aqui você encontrará uma vitrine do que já desenvolvi ao longo da minha jorna
 - **JavaScript**  
 
 ## Prévia do Portfólio
-Aqui estão algumas imagens das páginas principais do projeto:
+Aqui estão algumas imagens do projeto:
 
-### Página Inicial
-![Página Inicial](./screenshots/home.png)
+### Home
+![Home](./img/home.png)
 
-### Página de Projetos
-![Página de Projetos](./screenshots/projetos.png)
+### Sobre Mim
+![Sobre Mim](./img/sobreMim.png)
 
-### Página de Contato
-![Página de Contato](./screenshots/contato.png)
+### Meus Projetos
+![Meus Projetos](./img/meusProjetos.png)
