@@ -447,32 +447,27 @@ header.sticky{
         height: 87vh;
     }
 
-    .about-text h4{
+    .sobreMim-text h4{
         font-size: var(--p-small-font)
     }
 }
 
 @media (max-width: 920px){
 
-    .about{
+    .sobreMim{
         grid-template-columns: 1fr;   
     }
 
-    .about-img{
+    .sobreMim-img{
         display: none;
     }
 
-    .about-text{
+    .sobreMim-text{
         text-align: center;
     }
 }
 
 @media (max-width: 800px){
-
-    #menu-icon{
-        display: block;
-    }
-
     .navlist{
         position: absolute;
         top: -1000px;
