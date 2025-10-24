@@ -358,7 +358,7 @@ header.sticky{
     justify-content: center;
     flex-direction: column;
     gap: 2rem;
-    background-color: var(--bg-color);
+    background-color: var(--second-bg-color);
 }
 
 .last-text p{
