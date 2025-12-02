@@ -275,7 +275,7 @@ header.sticky{
 
 .projetos-content{
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, auto));
+    grid-template-columns: repeat(auto-fit, minmax(375px, auto));
     align-items: center;
     gap: 2.5rem;
     margin-top: 5rem;
@@ -291,8 +291,8 @@ header.sticky{
 .row img{
     max-width: 350px;
     min-width: 100%;
-    min-height: 375px;
-    max-height: 375px;
+    min-height: 450px;
+    max-height: 450px;
     border-radius: 10px;
     display: block;
     transition: transform 0.5s;
